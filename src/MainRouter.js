@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { RouterComponent } from './components/';
 
 
-class Chippendales extends Component {
+class MainRouter extends Component {
   render() {
     return (
       <RouterComponent />
@@ -10,4 +10,4 @@ class Chippendales extends Component {
   }
 }
 
-export default Chippendales;
+export default MainRouter;

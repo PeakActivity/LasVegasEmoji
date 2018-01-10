@@ -1515,7 +1515,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas;
 				PRODUCT_NAME = Chippendales;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1551,7 +1551,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas;
 				PRODUCT_NAME = Chippendales;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1570,7 +1570,7 @@
 				DEVELOPMENT_TEAM = 6G8P5X7J68;
 				INFOPLIST_FILE = Chippmojistickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji.Chippmojistickers;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1589,7 +1589,7 @@
 				DEVELOPMENT_TEAM = 6G8P5X7J68;
 				INFOPLIST_FILE = Chippmojistickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji.Chippmojistickers;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1617,7 +1617,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji.keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1649,7 +1649,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.chippmoji.keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = org.singlewingcreative.emclasvegas.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;

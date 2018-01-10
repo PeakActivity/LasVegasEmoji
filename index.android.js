@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
-import Chippendales from './src/Chippendales';
+import MainRouter from './src/MainRouter';
 
 console.disableYellowBox = true;
-AppRegistry.registerComponent('Chippendales', () => Chippendales);
+AppRegistry.registerComponent('MainRouter', () => MainRouter);
