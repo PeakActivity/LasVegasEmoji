@@ -1,0 +1,35 @@
+{
+  "name": "Chippendales",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-button": "^1.8.2",
+    "react-native-fs": "^2.5.1",
+    "react-native-paginated-listview": "^1.0.2",
+    "react-native-responsive-image": "^2.1.0",
+    "react-native-router-flux": "^3.39.1",
+    "react-native-share": "^1.0.20",
+    "rn-splash-screen": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
