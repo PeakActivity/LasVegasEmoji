@@ -62,7 +62,6 @@ class HomeScreen extends Component {
           </View>
           <View>
             <Button
-              onPress={() => Actions.SliderScreens()}
               buttonText={MERCH} buttonStyle={viewEmojiButtonStyle}
               textStyle={viewEmojiButtontextStyle}
             />
@@ -71,7 +70,6 @@ class HomeScreen extends Component {
 
         <View style={footerStyle}>
           <View style={companyStyle}>
-             <ResponsiveImage source={{ uri: 'home_screen_logo' }} initWidth="50" initHeight="50" />
              <TouchableWithoutFeedback onPress={() => this.handleClick('http://www.chippmoji.com')}>
               <View>
                 <Text style={companyNameStyle}>{companyName}</Text>

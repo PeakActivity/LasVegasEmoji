@@ -36,7 +36,7 @@ class SliderScreens extends Component {
          </TouchableHighlight>
       </View>
       <View>
-        <Text style={styles.text}>SEND CHIPPMOJI</Text>
+        <Text style={styles.text}>SEND EMOJI</Text>
       </View>
 
       <Swiper
