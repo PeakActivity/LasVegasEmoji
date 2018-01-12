@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -59,6 +58,9 @@
 		E50C0B3D0C7C468AA773B975 /* VisbyCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96DC6E24799F434A9EC83275 /* VisbyCF-Regular.otf */; };
 		EF5C1E4586B34E97A6EB9962 /* libRCTSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C18A2118943DEBEEF3906 /* libRCTSplashScreen.a */; };
 		F78A9543F51A4D4FB5C17E1A /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 451D20AE4B414D24BF57B479 /* CircularStd-Bold.otf */; };
+		BD03A6693F174A1E8759C02F /* Futura.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F37A0A6488F04A489C9C6970 /* Futura.ttc */; };
+		54ADD84E7C6E4E6E973C16B8 /* VisbyCF-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72DA655495FA43CD8F1B16E3 /* VisbyCF-LightOblique.otf */; };
+		1345B2E0D6BF4CC294383EC7 /* VisbyCF-ThinOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E23E3223FFAE4AEB9A98FAE9 /* VisbyCF-ThinOblique.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -374,6 +376,9 @@
 		F310861ABA1D034311BA07C1 /* Pods_ChippendalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChippendalesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9461905C8BF4991B6A71A10 /* VisbyCF-DemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyCF-DemiBold.otf"; path = "../src/assets/fonts/VisbyCF-DemiBold.otf"; sourceTree = "<group>"; };
 		FB6C18A2118943DEBEEF3906 /* libRCTSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTSplashScreen.a; sourceTree = "<group>"; };
+		F37A0A6488F04A489C9C6970 /* Futura.ttc */ = {isa = PBXFileReference; name = "Futura.ttc"; path = "../src/assets/fonts/Futura.ttc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72DA655495FA43CD8F1B16E3 /* VisbyCF-LightOblique.otf */ = {isa = PBXFileReference; name = "VisbyCF-LightOblique.otf"; path = "../src/assets/fonts/VisbyCF-LightOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E23E3223FFAE4AEB9A98FAE9 /* VisbyCF-ThinOblique.otf */ = {isa = PBXFileReference; name = "VisbyCF-ThinOblique.otf"; path = "../src/assets/fonts/VisbyCF-ThinOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -551,6 +556,9 @@
 				A01CA762A7F94A9F8D9D0B2B /* VisbyCF-Heavy.otf */,
 				F2C8D752EC674C5DB12895CD /* VisbyCF-Medium.otf */,
 				96DC6E24799F434A9EC83275 /* VisbyCF-Regular.otf */,
+				F37A0A6488F04A489C9C6970 /* Futura.ttc */,
+				72DA655495FA43CD8F1B16E3 /* VisbyCF-LightOblique.otf */,
+				E23E3223FFAE4AEB9A98FAE9 /* VisbyCF-ThinOblique.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1148,6 +1156,9 @@
 				5FF310A299EF40C8AC120743 /* VisbyCF-Heavy.otf in Resources */,
 				130CDE94DA9E44A0AFDCDA76 /* VisbyCF-Medium.otf in Resources */,
 				E50C0B3D0C7C468AA773B975 /* VisbyCF-Regular.otf in Resources */,
+				BD03A6693F174A1E8759C02F /* Futura.ttc in Resources */,
+				54ADD84E7C6E4E6E973C16B8 /* VisbyCF-LightOblique.otf in Resources */,
+				1345B2E0D6BF4CC294383EC7 /* VisbyCF-ThinOblique.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

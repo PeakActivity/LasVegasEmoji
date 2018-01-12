@@ -1,5 +1,6 @@
-export const COMPANY_NAME = 'CHIPPMOJI';
+export const COMPANY_NAME = 'EMOJI MY CITY';
 export const LEGAL = 'LEGAL';
 export const SUPPORT = 'SUPPORT';
-export const HOWTO = 'How to';
-export const VIEWEMOJI = 'View emoji';
+export const HOWTO = 'HOW TO';
+export const VIEWEMOJI = 'VIEW EMOJIS';
+export const MERCH = 'MERCH';

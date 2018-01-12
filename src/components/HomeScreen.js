@@ -4,7 +4,7 @@ import ResponsiveImage from 'react-native-responsive-image';
 import { Actions } from 'react-native-router-flux';
 import SplashScreen from 'rn-splash-screen';
 import { Button } from './';
-import { COMPANY_NAME, LEGAL, SUPPORT, HOWTO, VIEWEMOJI } from './Constants';
+import { COMPANY_NAME, LEGAL, SUPPORT, HOWTO, VIEWEMOJI, MERCH } from './Constants';
 
 class HomeScreen extends Component {
 
@@ -43,7 +43,7 @@ class HomeScreen extends Component {
         <View style={{ flex: 1, alignItems: 'center' }}>
           <View style={imageStyle}>
              <ResponsiveImage
-             source={{ uri: 'home_screen_icon' }} initWidth="135" initHeight="235"
+             source={{ uri: 'home_screen_icon' }} initWidth="370" initHeight="230"
              />
           </View>
           <View>
@@ -57,6 +57,13 @@ class HomeScreen extends Component {
             <Button
               onPress={() => Actions.SliderScreens()}
               buttonText={VIEWEMOJI} buttonStyle={viewEmojiButtonStyle}
+              textStyle={viewEmojiButtontextStyle}
+            />
+          </View>
+          <View>
+            <Button
+              onPress={() => Actions.SliderScreens()}
+              buttonText={MERCH} buttonStyle={viewEmojiButtonStyle}
               textStyle={viewEmojiButtontextStyle}
             />
           </View>
@@ -90,36 +97,36 @@ class HomeScreen extends Component {
 
 const styles = {
   containerStyle: {
-    flex: 1
+    flex: 1,
   },
   imageStyle: {
     paddingTop: 50,
     paddingBottom: 20
   },
   howtoButtonStyle: {
-      padding: 10,
-      margin: 10,
-      backgroundColor: '#000000',
+      padding: 2,
+      margin: 2,
+      backgroundColor: '#FFFFFF',
   },
   howtoButtontextStyle: {
       paddingLeft: 10,
       paddingRight: 10,
-      fontSize: 40,
+      fontSize: 30,
       letterSpacing: 2,
       textAlign: 'center',
-      color: '#FFFFFF',
+      color: '#000000',
       fontFamily: 'CircularStd-Bold',
   },
   viewEmojiButtonStyle: {
-      padding: 10,
-      margin: 10,
-      backgroundColor: '#EB0C8C',
+      padding: 2,
+      margin: 2,
+      backgroundColor: '#FFFFFF',
   },
   viewEmojiButtontextStyle: {
-      fontSize: 40,
+      fontSize: 30,
       letterSpacing: 2,
       textAlign: 'center',
-      color: '#FFFFFF',
+      color: '#000000',
       fontFamily: 'CircularStd-Bold',
   },
   companyStyle: {
@@ -128,10 +135,9 @@ const styles = {
   },
   companyNameStyle: {
     paddingLeft: 15,
-    fontSize: 25,
-    letterSpacing: 3,
-    fontFamily: 'CircularStd-Bold',
-    fontWeight: 'bold',
+    fontSize: 20,
+    letterSpacing: 2,
+    fontFamily: 'VisbyCF-LightOblique',
     textAlignVertical: 'center',
     color: '#000000'
   },
@@ -140,9 +146,9 @@ const styles = {
     flexDirection: 'row'
   },
   textStyle: {
-    letterSpacing: 2,
+    letterSpacing: 1,
     paddingRight: 10,
-    fontFamily: 'CircularStd-Book',
+    fontFamily: 'VisbyCF-ThinOblique',
     color: '#000000'
   },
   footerStyle: {

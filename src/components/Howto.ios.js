@@ -8,8 +8,8 @@ const listOfInstructions = [
   '1. Go to Settings.',
   '2. General > Keyboard > Keyboards.',
   '3. Select Add New Keyboard.',
-  '4. Choose Chippmoji.',
-  '5. Chippmoji > Allow Full Access.'
+  '4. Choose Emoji My City - Las Vegas.',
+  '5. Emoji My City - Las Vegas -> Allow Full Access.'
 ];
 
 class Howto extends Component {
@@ -26,7 +26,7 @@ class Howto extends Component {
           <View>
             <Text
             style={styles.listItemStyle}
-            numberOfLines={1}
+            numberOfLines={2}
             >{rowData}
             </Text>
           </View>
@@ -85,6 +85,9 @@ const styles = StyleSheet.create({
     color: '#000000',
     paddingTop: 15,
     fontFamily: 'CircularStd-Book',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    flex: 1
   },
   helpText: {
     fontSize: 10,
