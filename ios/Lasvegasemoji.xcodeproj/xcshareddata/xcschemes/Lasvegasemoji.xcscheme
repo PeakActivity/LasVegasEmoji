@@ -126,7 +126,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "Chippmoji"
+      customArchiveName = "LasVegasEmoji"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
